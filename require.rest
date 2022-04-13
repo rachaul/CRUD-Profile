@@ -1,0 +1,21 @@
+GET http://localhost:2000/profile
+
+###
+GET http://localhost:2000/profile/10
+
+###
+POST http://localhost:2000/profile
+Content-Type: application/json
+
+{
+    "name": "Rachaul Moraes",
+    "email": "rachaul@gmail.com",
+    "phone": 021345,
+    "address": "Jakarta",
+    "nationality": "Indonesia"
+}
+
+###
+DELETE http://localhost:2000/profile
+
+PATCH  http://localhost:2000/profile
